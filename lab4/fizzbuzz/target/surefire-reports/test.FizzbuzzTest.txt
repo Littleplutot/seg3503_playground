@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.FizzbuzzTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in test.FizzbuzzTest
-test3  Time elapsed: 0.004 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <fizz> but was: <null>
-	at test.FizzbuzzTest.test3(FizzbuzzTest.java:23)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in test.FizzbuzzTest
