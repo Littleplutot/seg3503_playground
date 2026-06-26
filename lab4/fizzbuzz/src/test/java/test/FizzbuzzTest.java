@@ -9,7 +9,8 @@ public class FizzbuzzTest {
 
     @Test// test que 9 retourne "9"
     void test9(){
-        assertEquals("9",fbConverter.converter(9));
+        String result = fbConverter.converter(9);
+        assertEquals("9",result);
     }
 
 }
