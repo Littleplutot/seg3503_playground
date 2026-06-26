@@ -1,8 +1,8 @@
 package test;
-import lib.Fizzbuzz ;
-
+import static org.junit.jupiter.api.Assertions.assertEquals ;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import lib.Fizzbuzz;
 
 public class FizzbuzzTest {
     Fizzbuzz fbConverter = new Fizzbuzz();
@@ -10,7 +10,7 @@ public class FizzbuzzTest {
     @Test// test que 9 retourne "9"
     void test9(){
         String result = fbConverter.converter(9);
-        assertEquals("9",result);
+        assertEquals("Fizz",result);
     }
 
 }
