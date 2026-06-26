@@ -12,6 +12,11 @@ public class FizzbuzzTest {
         String result = fbConverter.converter(1);
         assertEquals("1",result);
     }
+    @Test 
+    void test2(){
+        String result = fbConverter.converter(2);
+        assertEquals("2",result);
+    }
 
     
 
