@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: test.FizzbuzzTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in test.FizzbuzzTest
+test9  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method converter(int) is undefined for the type Fizzbuzz
+
+	at test.FizzbuzzTest.test9(FizzbuzzTest.java:12)
+
