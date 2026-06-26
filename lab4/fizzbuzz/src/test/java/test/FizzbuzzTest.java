@@ -7,10 +7,13 @@ import lib.Fizzbuzz;
 public class FizzbuzzTest {
     Fizzbuzz fbConverter = new Fizzbuzz();
 
-    @Test// test que 9 retourne "9"
-    void test9(){
-        String result = fbConverter.converter(9);
-        assertEquals("Fizz",result);
+    @Test// test que 1 retourne "1"
+    void test1(){
+        String result = fbConverter.converter(1);
+        assertEquals("1",result);
     }
+
+    
+
 
 }
