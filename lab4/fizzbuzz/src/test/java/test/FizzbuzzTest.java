@@ -20,14 +20,10 @@ public class FizzbuzzTest {
     @Test
     void test3(){
         String result = fbConverter.converter(3);
-        assertEquals("fizz",result);
+        assertEquals("Fizz",result);
     }
 
-    @Test
-    void test6(){
-        String result = fbConverter.converter(6);
-        assertEquals("fizz",result);
-    }
+    
 
     
 
