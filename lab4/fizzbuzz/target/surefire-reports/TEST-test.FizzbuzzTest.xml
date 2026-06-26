@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.FizzbuzzTest" time="0.013" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.FizzbuzzTest" time="0.017" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire/surefirebooter7647385162164134499.jar /Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire 2026-06-26T13-38-41_696-jvmRun1 surefire2296265276746303214tmp surefire_09491651741254445656tmp"/>
+    <property name="sun.java.command" value="/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire/surefirebooter2324039377004936358.jar /Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire 2026-06-26T13-39-36_887-jvmRun1 surefire16442915655978546148tmp surefire_010783708161142367026tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/test-classes:/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/classes:/Users/monzasango/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/monzasango/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/monzasango/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/monzasango/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/monzasango/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/monzasango/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/monzasango/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/monzasango/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire/surefirebooter7647385162164134499.jar"/>
+    <property name="surefire.real.class.path" value="/Users/monzasango/seg3503_playground/lab4/fizzbuzz/target/surefire/surefirebooter2324039377004936358.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2"/>
@@ -59,7 +59,12 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="test1" classname="test.FizzbuzzTest" time="0.008"/>
-  <testcase name="test2" classname="test.FizzbuzzTest" time="0.001"/>
+  <testcase name="test1" classname="test.FizzbuzzTest" time="0.007"/>
+  <testcase name="test2" classname="test.FizzbuzzTest" time="0"/>
   <testcase name="test3" classname="test.FizzbuzzTest" time="0"/>
+  <testcase name="test6" classname="test.FizzbuzzTest" time="0.004">
+    <failure message="expected: &lt;fizz&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <fizz> but was: <null>
+	at test.FizzbuzzTest.test6(FizzbuzzTest.java:29)
+]]></failure>
+  </testcase>
 </testsuite>
